@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308201621BCCD9B400EECD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201611BCCD9B400EECD29 /* main.m */; };
+		308201651BCCD9B400EECD29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201641BCCD9B400EECD29 /* AppDelegate.m */; };
+		308201681BCCD9B400EECD29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201671BCCD9B400EECD29 /* ViewController.m */; };
+		3082016B1BCCD9B400EECD29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308201691BCCD9B400EECD29 /* Main.storyboard */; };
+		3082016D1BCCD9B400EECD29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3082016C1BCCD9B400EECD29 /* Assets.xcassets */; };
+		308201701BCCD9B400EECD29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3082016E1BCCD9B400EECD29 /* LaunchScreen.storyboard */; };
+		3082018A1BCCDE2100EECD29 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3082017B1BCCDE2100EECD29 /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3082018B1BCCDE2100EECD29 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3082017D1BCCDE2100EECD29 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3082018C1BCCDE2100EECD29 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3082017F1BCCDE2100EECD29 /* MJExtensionConst.m */; settings = {ASSET_TAGS = (); }; };
+		3082018D1BCCDE2100EECD29 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201811BCCDE2100EECD29 /* MJProperty.m */; settings = {ASSET_TAGS = (); }; };
+		3082018E1BCCDE2100EECD29 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201831BCCDE2100EECD29 /* MJPropertyType.m */; settings = {ASSET_TAGS = (); }; };
+		3082018F1BCCDE2100EECD29 /* NSObject+keyValue2object.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201851BCCDE2100EECD29 /* NSObject+keyValue2object.m */; settings = {ASSET_TAGS = (); }; };
+		308201901BCCDE2100EECD29 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 308201871BCCDE2100EECD29 /* NSObject+Property.m */; settings = {ASSET_TAGS = (); }; };
+		308201931BCCE7E300EECD29 /* OneFile in Resources */ = {isa = PBXBuildFile; fileRef = 308201921BCCE7E300EECD29 /* OneFile */; settings = {ASSET_TAGS = (); }; };
+		AF2FAA61361DA2CDCF488B4C /* libPods-OneDream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 626A41DFFFC4CB15A31EB729 /* libPods-OneDream.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B2C947A237A5556897FA9D3 /* Pods-OneDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneDream/Pods-OneDream.debug.xcconfig"; sourceTree = "<group>"; };
+		3082015D1BCCD9B400EECD29 /* OneDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308201611BCCD9B400EECD29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		308201631BCCD9B400EECD29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		308201641BCCD9B400EECD29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		308201661BCCD9B400EECD29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		308201671BCCD9B400EECD29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3082016A1BCCD9B400EECD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3082016C1BCCD9B400EECD29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3082016F1BCCD9B400EECD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308201711BCCD9B400EECD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3082017A1BCCDE2100EECD29 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3082017B1BCCDE2100EECD29 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3082017C1BCCDE2100EECD29 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3082017D1BCCDE2100EECD29 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3082017E1BCCDE2100EECD29 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		3082017F1BCCDE2100EECD29 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		308201801BCCDE2100EECD29 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		308201811BCCDE2100EECD29 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		308201821BCCDE2100EECD29 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		308201831BCCDE2100EECD29 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		308201841BCCDE2100EECD29 /* NSObject+keyValue2object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+keyValue2object.h"; sourceTree = "<group>"; };
+		308201851BCCDE2100EECD29 /* NSObject+keyValue2object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+keyValue2object.m"; sourceTree = "<group>"; };
+		308201861BCCDE2100EECD29 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		308201871BCCDE2100EECD29 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		308201921BCCE7E300EECD29 /* OneFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OneFile; sourceTree = "<group>"; };
+		3C3D73AEBD5E3ED4B40B3BE1 /* Pods-OneDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneDream.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneDream/Pods-OneDream.release.xcconfig"; sourceTree = "<group>"; };
+		626A41DFFFC4CB15A31EB729 /* libPods-OneDream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneDream.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3082015A1BCCD9B400EECD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2FAA61361DA2CDCF488B4C /* libPods-OneDream.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2CD85379AD330B43C91CB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B2C947A237A5556897FA9D3 /* Pods-OneDream.debug.xcconfig */,
+				3C3D73AEBD5E3ED4B40B3BE1 /* Pods-OneDream.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		308201541BCCD9B400EECD29 = {
+			isa = PBXGroup;
+			children = (
+				3082015F1BCCD9B400EECD29 /* OneDream */,
+				3082015E1BCCD9B400EECD29 /* Products */,
+				0A2CD85379AD330B43C91CB2 /* Pods */,
+				6F07BA0BA4567A0F285E0BFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3082015E1BCCD9B400EECD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3082015D1BCCD9B400EECD29 /* OneDream.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3082015F1BCCD9B400EECD29 /* OneDream */ = {
+			isa = PBXGroup;
+			children = (
+				308201791BCCDE2100EECD29 /* Set */,
+				308201631BCCD9B400EECD29 /* AppDelegate.h */,
+				308201641BCCD9B400EECD29 /* AppDelegate.m */,
+				308201661BCCD9B400EECD29 /* ViewController.h */,
+				308201671BCCD9B400EECD29 /* ViewController.m */,
+				308201691BCCD9B400EECD29 /* Main.storyboard */,
+				3082016C1BCCD9B400EECD29 /* Assets.xcassets */,
+				3082016E1BCCD9B400EECD29 /* LaunchScreen.storyboard */,
+				308201711BCCD9B400EECD29 /* Info.plist */,
+				308201601BCCD9B400EECD29 /* Supporting Files */,
+			);
+			path = OneDream;
+			sourceTree = "<group>";
+		};
+		308201601BCCD9B400EECD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				308201611BCCD9B400EECD29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		308201791BCCDE2100EECD29 /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				3082017A1BCCDE2100EECD29 /* BaseViewController.h */,
+				3082017B1BCCDE2100EECD29 /* BaseViewController.m */,
+				3082017C1BCCDE2100EECD29 /* DetailViewController.h */,
+				3082017D1BCCDE2100EECD29 /* DetailViewController.m */,
+				3082017E1BCCDE2100EECD29 /* MJExtensionConst.h */,
+				3082017F1BCCDE2100EECD29 /* MJExtensionConst.m */,
+				308201801BCCDE2100EECD29 /* MJProperty.h */,
+				308201811BCCDE2100EECD29 /* MJProperty.m */,
+				308201821BCCDE2100EECD29 /* MJPropertyType.h */,
+				308201831BCCDE2100EECD29 /* MJPropertyType.m */,
+				308201841BCCDE2100EECD29 /* NSObject+keyValue2object.h */,
+				308201851BCCDE2100EECD29 /* NSObject+keyValue2object.m */,
+				308201861BCCDE2100EECD29 /* NSObject+Property.h */,
+				308201871BCCDE2100EECD29 /* NSObject+Property.m */,
+				308201921BCCE7E300EECD29 /* OneFile */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		6F07BA0BA4567A0F285E0BFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				626A41DFFFC4CB15A31EB729 /* libPods-OneDream.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3082015C1BCCD9B400EECD29 /* OneDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308201741BCCD9B400EECD29 /* Build configuration list for PBXNativeTarget "OneDream" */;
+			buildPhases = (
+				F5939F751DE0F429B1012FE2 /* Check Pods Manifest.lock */,
+				308201591BCCD9B400EECD29 /* Sources */,
+				3082015A1BCCD9B400EECD29 /* Frameworks */,
+				3082015B1BCCD9B400EECD29 /* Resources */,
+				B1D9D25318A7D4E59A2F510D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneDream;
+			productName = OneDream;
+			productReference = 3082015D1BCCD9B400EECD29 /* OneDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308201551BCCD9B400EECD29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BCH;
+				TargetAttributes = {
+					3082015C1BCCD9B400EECD29 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 308201581BCCD9B400EECD29 /* Build configuration list for PBXProject "OneDream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 308201541BCCD9B400EECD29;
+			productRefGroup = 3082015E1BCCD9B400EECD29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3082015C1BCCD9B400EECD29 /* OneDream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3082015B1BCCD9B400EECD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308201701BCCD9B400EECD29 /* LaunchScreen.storyboard in Resources */,
+				308201931BCCE7E300EECD29 /* OneFile in Resources */,
+				3082016D1BCCD9B400EECD29 /* Assets.xcassets in Resources */,
+				3082016B1BCCD9B400EECD29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1D9D25318A7D4E59A2F510D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneDream/Pods-OneDream-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5939F751DE0F429B1012FE2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308201591BCCD9B400EECD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3082018B1BCCDE2100EECD29 /* DetailViewController.m in Sources */,
+				3082018E1BCCDE2100EECD29 /* MJPropertyType.m in Sources */,
+				3082018F1BCCDE2100EECD29 /* NSObject+keyValue2object.m in Sources */,
+				308201681BCCD9B400EECD29 /* ViewController.m in Sources */,
+				3082018D1BCCDE2100EECD29 /* MJProperty.m in Sources */,
+				3082018A1BCCDE2100EECD29 /* BaseViewController.m in Sources */,
+				308201651BCCD9B400EECD29 /* AppDelegate.m in Sources */,
+				3082018C1BCCDE2100EECD29 /* MJExtensionConst.m in Sources */,
+				308201901BCCDE2100EECD29 /* NSObject+Property.m in Sources */,
+				308201621BCCD9B400EECD29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		308201691BCCD9B400EECD29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3082016A1BCCD9B400EECD29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3082016E1BCCD9B400EECD29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3082016F1BCCD9B400EECD29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308201721BCCD9B400EECD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308201731BCCD9B400EECD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308201751BCCD9B400EECD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2C947A237A5556897FA9D3 /* Pods-OneDream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BCH.OneDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		308201761BCCD9B400EECD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3D73AEBD5E3ED4B40B3BE1 /* Pods-OneDream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneDream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BCH.OneDream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308201581BCCD9B400EECD29 /* Build configuration list for PBXProject "OneDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308201721BCCD9B400EECD29 /* Debug */,
+				308201731BCCD9B400EECD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308201741BCCD9B400EECD29 /* Build configuration list for PBXNativeTarget "OneDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308201751BCCD9B400EECD29 /* Debug */,
+				308201761BCCD9B400EECD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308201551BCCD9B400EECD29 /* Project object */;
+}
